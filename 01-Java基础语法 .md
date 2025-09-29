@@ -21,7 +21,7 @@
 
 ​	cmd默认操作C盘下的users文件夹下的XXX文件夹。（XXX就是计算机名）
 
- ![image-20210923091350952](assets\cmd.png)
+ ![image-20210923091350952](img/cmd.png)
 
 ### 1.3 常用CMD命令
 
@@ -86,21 +86,21 @@
 
 （如果无法出现第二步界面，可以打开我的电脑之后右键点击空白处）
 
-![image-20210923091350952](assets\1.png)
+![image-20210923091350952](img/1.png)
 
 第二步：点击高级系统设置。
 
-​	 ![image-20210923091350952](assets\2.png)
+​	 ![image-20210923091350952](img/2.png)
 
 第三步：选择高级，再点击下面的环境变量。
 
- ![image-20210923091350952](assets\3.png)
+ ![image-20210923091350952](img/3.png)
 
 
 
 第四步：找系统变量里面的PATH
 
- ![image-20210923091350952](assets\4.png)
+ ![image-20210923091350952](img/4.png)
 
 第五步：点击新建，把软件的完整路径，配置到PATH当中，再点击确定即可。
 
@@ -108,7 +108,7 @@
 
 移动的好处：在CMD中打开软件时，会先找当前路径，再找环境变量，在环境变量中是从上往下依次查找的，如果路径放在最上面查找的速度比较快。
 
- ![image-20210923091350952](assets\5.png)
+ ![image-20210923091350952](img/5.png)
 
 ## 2. Java概述
 
@@ -312,7 +312,7 @@ public class HelloWorld{
 
 #### 1.5.2配置方式
 
-![image-20210923091654365](assets/image-20210923091654365.png)
+![image-20210923091654365](img/image-20210923091654365.png)
 
 
 
@@ -320,11 +320,11 @@ public class HelloWorld{
 
 ①**JAVA_HOME**：告诉操作系统JDK安装在了哪个位置（未来其他技术要通过这个找JDK）
 
-![image-20210923091710450](assets/image-20210923091710450.png)
+![image-20210923091710450](img/image-20210923091710450.png)
 
 ②**Path**：告诉操作系统JDK提供的javac(编译)、java(执行)命令安装到了哪个位置
 
-![image-20210923091721035](assets/image-20210923091721035.png)
+![image-20210923091721035](img/image-20210923091721035.png)
 
 
 
@@ -429,11 +429,11 @@ public class HelloWorld{
 
 虚拟机会把Java语言翻译成操作系统能看得懂的语言。
 
-![image-20210923091350952](assets\image-20210923091350952.png)
+![image-20210923091350952](img/image-20210923091350952.png)
 
 ### 1.10 JRE和JDK
 
-![image-20210923091544110](assets\image-20210923091544110.png)
+![image-20210923091544110](img/image-20210923091544110.png)
 
 JVM（Java Virtual Machine），Java虚拟机
 
@@ -442,3 +442,4 @@ JRE（Java Runtime Environment），Java运行环境，包含了JVM和Java的核
 JDK（Java Development Kit）称为Java开发工具，包含了JRE和开发工具
 
 总结：我们只需安装JDK即可，它包含了java的运行环境和虚拟机。
+
