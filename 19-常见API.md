@@ -32,7 +32,7 @@ Math类包含执行基本数字运算的方法，我们可以使用Math类完成
 
 一下Math类的成员，如下所示：
 
-![1576047846672](.\img\1576047846672.png) 
+![1576047846672](./img/1576047846672.png) 
 
 在API文档中没有体现可用的构造方法，因此我们就不能直接通过new关键字去创建Math类的对象。同时我们发现Math类中的方法都是静态的，因此在使用的时候我们可以直接通过类名去调用。在Math类中
 
@@ -204,7 +204,7 @@ for (int i = 100; i <= 999; i++) {
 
 查看API文档，我们可以看到API文档中关于System类的定义如下：
 
- ![1576049347968](assets/1576049347968.png) 
+ ![1576049347968](img/1576049347968.png) 
 
 
 
@@ -218,7 +218,7 @@ System包含了系统操作的一些常用的方法。比如获取当前时间�
 
 查看一下System类的成员，如下所示：
 
-![1576049535584](assets/1576049535584.png) 
+![1576049535584](img/1576049535584.png) 
 
 在API文档中没有体现可用的构造方法，因此我们就不能直接通过new关键字去创建System类的对象。同时我们发现System类中的方法都是静态的，因此在使用的时候我们可以直接通过类名去调用（Nested 
 
@@ -631,7 +631,7 @@ public class RunTimeDemo1 {
 
 ​	任意一个按钮被点击之后，上方了按钮出现。当点击上方按钮之后取消关机任务
 
- ![恶搞好基友](assets\恶搞好基友.png)
+ ![恶搞好基友](img/恶搞好基友.png)
 
 ```java
 public class Test {
@@ -802,7 +802,7 @@ public class MyJframe extends JFrame implements ActionListener {
 
 查看API文档，我们可以看到API文档中关于Object类的定义如下：
 
-![1576053677194](assets/1576053677194.png) 
+![1576053677194](img/1576053677194.png) 
 
 
 
@@ -812,7 +812,7 @@ Object类所在包是java.lang包。Object 是类层次结构的根，每个类�
 
 查看API文档我们可以看到，在Object类中提供了一个无参构造方法，如下所示：
 
-![1576053871503](assets/1576053871503.png) 
+![1576053871503](img/1576053871503.png) 
 
 但是一般情况下我们很少去主动的创建Object类的对象，调用其对应的方法。更多的是创建Object类的某个子类对象，然后通过子类对象调用Object类中的方法。
 
@@ -900,11 +900,11 @@ public String toString() {		// Object类中toString方法的源码定义
 
 1. 在空白处使用快捷键：alt + insert。此时会弹出如下的对话框
 
-![1576055135105](assets/1576055135105.png) 
+![1576055135105](img/1576055135105.png) 
 
 2. 选择toString，此时会弹出如下的对话框
 
-![1576055198877](assets/1576055198877.png) 
+![1576055198877](img/1576055198877.png) 
 
 同时选择name和age属性，点击OK。此时就会完成toString方法的重写，代码如下所示：
 
@@ -1030,19 +1030,19 @@ public boolean equals(Object obj) {		// Object类中的equals方法的源码
 
 1. 在空白处使用快捷键：alt + insert。此时会弹出如下的对话框
 
- ![1576056718392](assets/1576056718392.png) 
+ ![1576056718392](img/1576056718392.png) 
 
 2. 选择equals() and hashCode()方法，此时会弹出如下的对话框
 
-![1576057779458](assets/1576057779458.png) 
+![1576057779458](img/1576057779458.png) 
 
 点击next，会弹出如下对话框：
 
-![1576057813175](assets/1576057813175.png) 
+![1576057813175](img/1576057813175.png) 
 
 选择neme和age属性点击next，此时就会弹出如下对话框：
 
-![1576057892814](assets/1576057892814.png) 
+![1576057892814](img/1576057892814.png) 
 
 取消name和age属性（因为此时选择的是在生成hashCode方法时所涉及到的属性，关于hashCode方法后期再做重点介绍），点击Finish完成生成操作。生成的equals方法和hashCode方法如下：
 
@@ -1090,13 +1090,13 @@ true
 
 ​	Object类默认的是浅克隆
 
-![浅克隆](assets\浅克隆.png)
+![浅克隆](img/浅克隆.png)
 
 **深克隆：**
 
 ​	基本数据类型拷贝过来，字符串复用，引用数据类型会重新创建新的
 
-![深克隆](assets\深克隆.png)
+![深克隆](img/深克隆.png)
 
 代码实现：
 
@@ -1316,7 +1316,7 @@ public class User implements Cloneable {
 
 查看API文档，我们可以看到API文档中关于Objects类的定义如下：
 
-![1576058492444](assets/1576058492444.png) 
+![1576058492444](img/1576058492444.png) 
 
 Objects类所在包是在java.util包下，因此在使用的时候需要进行导包。并且Objects类是被final修饰的，因此该类不能被继承。
 
@@ -1326,7 +1326,7 @@ Objects类提供了一些对象常见操作的方法。比如判断对象是否�
 
 接下来我们来查看一下API文档，看一下Objects类中的成员，如下所示：
 
-![1576058659628](assets/1576058659628.png) 
+![1576058659628](img/1576058659628.png) 
 
 我们可以发现Objects类中无无参构造方法，因此我们不能使用new关键字去创建Objects的对象。同时我们可以发现Objects类中所提供的方法都是静态的。因此我们可以通过类名直接去调用这些方法。
 
@@ -1534,7 +1534,7 @@ public class ObjectsDemo02 {
 
 查看API文档，我们可以看到API文档中关于BigInteger类的定义如下：
 
- ![Snipaste_2022-09-04_21-36-01](assets\Snipaste_2022-09-04_21-36-01.png)
+ ![Snipaste_2022-09-04_21-36-01](img/Snipaste_2022-09-04_21-36-01.png)
 
 BigInteger所在包是在java.math包下，因此在使用的时候就需要进行导包。我们可以使用BigInteger类进行大整数的计算
 
@@ -1725,7 +1725,7 @@ public class BigIntegerDemo2 {
 
 存储方式如图所示：
 
-![bigInteger的底层原理](assets\bigInteger的底层原理.png)
+![bigInteger的底层原理](img/bigInteger的底层原理.png)
 
 
 
@@ -1773,7 +1773,7 @@ public class BigDecimalDemo01 {
 
 查看API文档，我们可以看到API文档中关于BigDecimal类的定义如下：
 
- ![1576132679789](.\assets\1576132679789.png)
+ ![1576132679789](./img/1576132679789.png)
 
 BigDecimal所在包是在java.math包下，因此在使用的时候就需要进行导包。我们可以使用BigDecimal类进行更加精准的数据计算。
 
@@ -1783,7 +1783,7 @@ BigDecimal所在包是在java.math包下，因此在使用的时候就需要进�
 
 要用BigDecimal类，那么就需要首先学习一下如何去创建BigDecimal的对象。通过查看API文档，我们可以发现Jdk中针对BigDecimal类提供了很多的构造方法，但是最常用的构造方法是：
 
- ![1576134383441](.\assets\1576134383441.png)
+ ![1576134383441](./img/1576134383441.png)
 
 了解完常见的构造方法以后，我们接下来就重点介绍一下常见的成员方法。
 
@@ -1937,7 +1937,8 @@ public class BigDecimalDemo02 {
 
 把数据看成字符串，遍历得到里面的每一个字符，把这些字符在ASCII码表上的值，都存储到数组中。
 
- ![bigdecimal存储原理](assets\bigdecimal存储原理.png)
+ ![bigdecimal存储原理](img/bigdecimal存储原理.png)
+
 
 
 
